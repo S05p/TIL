@@ -1,4 +1,9 @@
-N, X = int(input().split())
+N, X = map(int,input().split())
 test_list = list(map(int,input().split()))
+test_list_2 = []
 
-print()
+for i in test_list:
+    if i<X:
+        test_list_2.append(i)
+        
+print(*test_list_2)
