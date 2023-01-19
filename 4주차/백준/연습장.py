@@ -1,4 +1,5 @@
-x = [1,2,3,4,5]
+s = ' cvcc '
 
-if 5 in x:
-    print('yes')
+s = s.strip()
+
+print(s)
