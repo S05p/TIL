@@ -16,9 +16,3 @@
 # print(new_count_itmes)
 # print(new_count_itmes.most_common())
 
-n = int(input())
-att = {}
-
-att['a'] = 'b'
-
-print(att.get('c',1))

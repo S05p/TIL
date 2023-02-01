@@ -11,3 +11,4 @@ for i in my_list:
         my_list_2.append(i)
         
 print(my_list_2)
+
